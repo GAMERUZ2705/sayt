@@ -1,0 +1,60 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+.container{
+       width: 100%;
+       margin: 0 auto;
+}
+nav{
+       display: flex;
+       background-color: #21243d;
+       justify-content: space-around;
+       height: 83px;
+}
+.logo_box{
+       display: flex;
+       margin-top: 32px;
+}
+.pichoq_ikonka{
+       color: white;
+       padding-right: 5px;
+       font-size: 40px;
+       margin-top: 10px;
+}
+.header_box{
+       background: url(/img/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).jpg) no-repeat;
+       height: 732px;
+       width: 100%;
+       background-size: cover;
+}
+.main_title{
+       color: white;
+}
+.logo_text{
+       color: white;
+}
+ul{
+       display: flex;
+}
+a{
+       color: white;
+       padding-left: 70px;
+       text-decoration: none;
+       margin-top: 33px;
+       font-size: 20px;
+}
+li{
+       list-style: none;
+}
+button{
+       padding: 30px;
+       background-color: #21243d;
+       border-radius: 30px;
+       color: white;
+       margin: 5px;
+}
+button:hover{
+       transition: 1s;
+}
